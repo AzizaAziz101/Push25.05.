@@ -269,7 +269,7 @@ a:focus {
     margin: 0;
     font-size: 60px;
     font-weight: 100;
-    color: #ffffff;
+    color: #000000;
 }
 
 .header .hero h2 span {
@@ -279,7 +279,7 @@ a:focus {
 .header .hero p {
     margin: 10px 0 20px 0;
     font-size: 22px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .header .hero a.btn {
@@ -371,8 +371,8 @@ a:focus {
 }
 
 .page-header h2 {
-    color: #000000;
-    font-size: 60px;
+    color: #111111;
+    font-size: 80px;
     font-weight: 100;
     text-transform: uppercase;
     margin-bottom: 15px;
