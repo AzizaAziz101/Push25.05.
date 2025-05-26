@@ -218,6 +218,35 @@
         <script src="lib/isotope/isotope.pkgd.min.js"></script>
         <script src="lib/lightbox/js/lightbox.min.js"></script>
 
+
+<!-- jQuery zuerst -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<!-- Easing-Plugin (benötigt jQuery) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+
+<script>
+    $(document).ready(function () {
+    // Sanftes Ein-/Ausblenden des Back-to-Top-Buttons
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+            $('.back-to-top').fadeIn('slow');
+        } else {
+            $('.back-to-top').fadeOut('slow');
+        }
+    });
+
+    // Sanftes Scrollen nach oben mit Ease-Effekt
+    $('.back-to-top').click(function (e) {
+        e.preventDefault();
+        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+        return false;
+    });
+});
+
+</script>
+
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
     </body>
