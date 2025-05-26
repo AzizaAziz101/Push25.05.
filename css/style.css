@@ -68,11 +68,19 @@ a:hover {
 }
 
 /* ============ Section Header ============ */
+.section-header h1 {
+    text-align: center;
+}
 .section-header h2 {
+    text-align: center;
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 10px;
 }
+.img-fluid.rounded {
+    border-radius: 1.5rem; /* z.B. 1.5rem für größere Rundung */
+}
+
 
 /* ============ Footer ============ */
 .footer {
