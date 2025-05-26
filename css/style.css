@@ -75,8 +75,9 @@ a:focus {
 .header {
     position: relative;
     width: 100%;
-    padding: 15px 0 0 0;
-    background: #00539C;
+    padding: 20px 0 0 0;
+    height: 65px;
+    background: #FFD662;
 }
 
 .header.home {
@@ -103,9 +104,11 @@ a:focus {
 }
 
 .header .brand a {
-    color: #ffffff;
-    font-size: 60px;
+    color: #1f1e1e;
+    font-size: 14px;
     font-weight: 100;
+    padding: 0 10px;
+    margin-bottom: 15px;
 }
 
 .header .brand img {
@@ -122,7 +125,7 @@ a:focus {
 
 .header .topbar .topbar-col {
     display: inline-block;
-    padding: 0 15px;
+    padding: 0 10px;
     margin-bottom: 15px;
 }
 
@@ -133,7 +136,7 @@ a:focus {
 
 .header .topbar-col a i {
     margin-right: 10px;
-    color: #FFD662;
+    color: #101010;
 }
 
 .header .topbar-social {
@@ -367,7 +370,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 90px 0;
     text-align: center;
-    background: #FFD662;
+    background: #000000;
 }
 
 .page-header h2 {
