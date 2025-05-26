@@ -41,7 +41,7 @@ a:hover {
 .header .brand a {
     font-size: 1.1rem; /* kleiner als vorher */
     font-weight: 600;
-    color: #000;
+    color: #1d999f;
     white-space: nowrap;
     margin-right: 15px;
 }
@@ -54,7 +54,7 @@ a:hover {
 }
 
 .topbar a {
-    color: #000;
+    color: #1d999f;
     font-weight: 500;
     font-size: 0.85rem; /* kleinere Schrift */
     display: flex;
@@ -64,7 +64,7 @@ a:hover {
 }
 
 .topbar a:hover {
-    color: #222;
+    color: #4a8898;
 }
 
 /* ============ Section Header ============ */
@@ -85,20 +85,24 @@ a:hover {
 /* ============ Footer ============ */
 .footer {
     background-color: #FFD700;
-    color: #000;
+    color: #1d999f;
     padding: 40px 0 20px;
     font-size: 15px;
+    
 }
 
+.footer p {
+  color: #1d999f;
+}
 .footer h2 {
-    color: #000;
+    color: #1d999f;
     font-size: 1.2rem;
     margin-bottom: 20px;
     font-weight: bold;
 }
 
 .footer a {
-    color: #000;
+    color: #1d999f;
 }
 
 .footer a:hover {
@@ -113,7 +117,7 @@ a:hover {
 
 .footer .btn {
     margin-top: 10px;
-    background-color: #000;
+    background-color: #1d999f;
     color: #FFD700;
     border: none;
     border-radius: 0;
